@@ -1,10 +1,12 @@
-#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 int main()
 {
     int m = 0, t = 0;
-    std::string n;
-    std::cin >> n;
+    string n;
+    cin >> n;
     char a = n[0];
     for (char c : n)
     {
@@ -18,5 +20,5 @@ int main()
         if (t > m)
             m = t;
     }
-    std::cout << m;
+    cout << m;
 }
