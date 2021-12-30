@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    // solution
+
     int n;
     cin >> n;
     long a[n], c = 0;

@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    // solution
+
     int n, p, m = 0;
     cin >> n;
     for (int i = 1; i <= n; i++) {
