@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     // solution
@@ -11,12 +10,10 @@ int main()
     string n;
     cin >> n;
     char a = n[0];
-    for (char c : n)
-    {
+    for (char c: n) {
         if (c == a)
             t++;
-        else
-        {
+        else {
             a = c;
             t = 1;
         }
