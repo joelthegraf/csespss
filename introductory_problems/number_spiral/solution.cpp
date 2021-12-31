@@ -9,7 +9,7 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        long long y, x;
+        long y, x;
         cin >> y >> x;
         if (y > x) {
             if (y % 2) {
